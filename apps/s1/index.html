@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angularjs s1</title>
+
+  <script src="../libs/angular/angular.js"></script>
+  <script src="../libs/jquery/jquery-2.2.2.js"></script>
+  <link rel="stylesheet" href="../libs/bootstrap-3.3.6-dist/css/bootstrap.css">
+  <script src="../libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+ 
+  <script src="app.js"></script>
+</head>
+
+<body ng-app="app" >
+
+<h1>hello world static</h1>
+
+
+
+<div ng-controller="FirstCtrl"> 
+
+ {{message}}
+
+
+<div class="container">
+<table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="employee in employeedata.employees">
+        <td>{{ employee.firstName}}</td>
+        <td>{{ employee.lastName }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+</div>
+ 
+
+</body>
+</html>
