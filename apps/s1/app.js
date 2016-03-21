@@ -1,6 +1,6 @@
-var app = angular.module("app", [])
+var app = angular.module("app", []);
 
-.controller('FirstCtrl', function FirstCtrl($scope) {
+app.controller('FirstCtrl', function FirstCtrl($scope) {
    
     $scope.message = "dynamic content from controller";
 
