@@ -1,0 +1,47 @@
+<div>
+
+<div class="container">
+	<table class="table">
+	    <thead>
+	      <tr>
+	        <th>Product</th>
+	        <th>Image</th>
+	        <th>Company</th>
+	        <th>Variants</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr ng-repeat="product in products">
+	        <td>{{ product.title}}</td>
+	        <td>
+	        	<img ng-src="{{product.image.src}}" width="100 px" height="100 px" />
+	        </td>
+	        <td>{{ product.vendor }}</td>
+	        
+	        <td>
+                <div>
+				    <ul>
+				        <li ng-repeat="vmodel in product.variants">
+				          	
+				          	<!--a ng-href="#/products/{{ vmodel.product_id }}">
+				          	  {{ vmodel.title }}
+				          	</a-->
+
+				          	<a ng-click="openWindow(vmodel.product_id)">
+				          	  {{ vmodel.title }}
+				          	</a>
+
+				          	<!--button type="" class="btn grn-btn" ng-click="openWindow(vmodel.product_id)">{{ vmodel.title }}</button-->
+
+				          </li>
+				    </ul>
+				</div>
+	        </td>
+
+	      </tr>
+	    </tbody>
+	  </table>
+
+	</div>
+
+</div>
