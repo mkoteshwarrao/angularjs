@@ -23,13 +23,13 @@
 				    <ul>
 				        <li ng-repeat="vmodel in product.variants">
 				          	
-				          	<!--a ng-href="#/products/{{ vmodel.product_id }}">
-				          	  {{ vmodel.title }}
-				          	</a-->
-
-				          	<a ng-click="openWindow(vmodel.product_id)">
+				          	<a ng-href="#/products/{{ vmodel.product_id }}">
 				          	  {{ vmodel.title }}
 				          	</a>
+
+				          	<!--a ng-click="openWindow(vmodel.product_id)">
+				          	  {{ vmodel.title }}
+				          	</a-->
 
 				          	<!--button type="" class="btn grn-btn" ng-click="openWindow(vmodel.product_id)">{{ vmodel.title }}</button-->
 
