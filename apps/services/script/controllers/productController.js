@@ -1,13 +1,13 @@
 app.controller('productController', ['$compile', '$scope','$http','productsService',
 	
 	function productController($compile,$scope,$http,productsService) {
-	$scope.showModal = false;
+	  $scope.showModal = false;
     $scope.products ={};
-    $scope.message = "file Controller";
+    
     
     $scope.getProducts = productsService.getProducts();
 	
-	$scope.getProducts.then(
+	 $scope.getProducts.then(
         // OnSuccess function
         function(items) {
           $scope.products = items.data.products;
@@ -22,16 +22,12 @@ app.controller('productController', ['$compile', '$scope','$http','productsServi
 
      $scope.showDetails = function(value){
 
-   			    angular.forEach($scope.products, function(items){
-                   
- 	                angular.forEach(items.variants, function(item){
- 	                	 
- 		                   if(item.product_id == value){
- 		                   	 $scope.details = item;
- 		                   	 $scope.item = items;
+   			    angular.forEach($scope.products, function(item){   
+ 		                   if(item.id == value){
+ 		                   	 $scope.item = item;
  		                   	 $scope.showModal = !$scope.showModal; 
  		                   }
- 		         	});  
+ 		            
 		        });
      };
 

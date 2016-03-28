@@ -10,7 +10,7 @@ app.config(['$routeProvider',function($routeProvider) {
       }).
       when('/products/:productId', {
         templateUrl: 'pages/productdetails.html',
-        controller: 'productController'
+        controller: 'productDetailsController'
       }).
       when('/about', {
         templateUrl: 'pages/about.html',

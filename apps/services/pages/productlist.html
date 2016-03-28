@@ -11,29 +11,14 @@
 	      </tr>
 	    </thead>
 	    <tbody>
-	      <tr ng-repeat="product in products">
-	        <td>{{ product.title}}</td>
+	      <tr ng-repeat="item in products" ng-click="showDetails(item.id)">
+	        <td>{{ item.title}}</td>
 	        <td>
-	        	<img ng-src="{{product.image.src}}" width="100 px" height="100 px" />
+	        	<img ng-src="{{item.image}}" width="100 px" height="100 px" />
 	        </td>
-	        <td>{{ product.vendor }}</td>
+	        <td>{{ item.price }}</td>
 	        
-	        <td>
-                <div>
-				    <ul>
-				        <li ng-repeat="vmodel in product.variants">
-				          	
-				          
-				          	<a ng-click="showDetails(vmodel.product_id)">
-				          	  {{ vmodel.title }}
-				          	</a>
-
-				          	
-
-				          </li>
-				    </ul>
-				</div>
-	        </td>
+	        <td>{{ item.color }}</td>
 
 	      </tr>
 	    </tbody>

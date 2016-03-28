@@ -23,13 +23,13 @@ app.directive('pDetails', function() {
             '<div class="modal-content">' + 
               '<div class="modal-header">' + 
                 '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' + 
-                '<h4 class="modal-title">{{ item.title }} clicked!!</h4>' + 
+                '<h4 class="modal-title">{{ item.title }}</h4>' + 
               '</div>' + 
               '<div class="modal-body" ng-transclude></div>' + 
-               '<h2 style="color:{{ details.option1}};">Colour : {{details.option1}}</h2>'+
-               '<h2>Price : {{ details.price}}</h2>'+
-               '<img ng-src="{{item.image.src}}" width="100 px" height="100 px" />'+
-               '<div>{{ item.body_html}}</div>'+
+               '<h2>Colour : {{item.color}}</h2>'+
+               '<h2>Price : {{ item.price}}</h2>'+
+               '<img ng-src="{{item.image}}" width="100 px" height="100 px" />'+
+               '<div>{{ item.info}}</div>'+
             '</div>' + 
           '</div>' + 
         '</div>',

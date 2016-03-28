@@ -1,236 +1,101 @@
 {
-  "products": [
-    {
-      "id": 632910392,
-      "title": "IPod Nano - 8GB",
-      "body_html": "It's the small iPod with one very big idea: Video. Now the world's most popular music player, available in 4GB and 8GB models, lets you enjoy TV shows, movies, video podcasts, and more. The larger, brighter display means amazing picture quality. In six eye-catching colors, iPod nano is stunning all around. And with models starting at just $149, little speaks volumes.",
-      "vendor": "Apple",
-      "product_type": "Cult Products",
-      "created_at": "2016-03-17T16:54:51-04:00",
-      "handle": "ipod-nano",
-      "updated_at": "2016-03-17T16:54:51-04:00",
-      "published_at": "2007-12-31T19:00:00-05:00",
-      "template_suffix": null,
-      "published_scope": "web",
-      "tags": "Emotive, Flash Memory, MP3, Music",
-      "variants": [
-        {
-          "id": 808950810,
-          "product_id": 1,
-          "title": "Pink",
-          "price": "199.00",
-          "sku": "IPOD2008PINK",
-          "position": 1,
-          "grams": 200,
-          "inventory_policy": "continue",
-          "compare_at_price": null,
-          "fulfillment_service": "manual",
-          "inventory_management": "shopify",
-          "option1": "Pink",
-          "option2": null,
-          "option3": null,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "requires_shipping": true,
-          "taxable": true,
-          "barcode": "1234_pink",
-          "inventory_quantity": 10,
-          "old_inventory_quantity": 10,
-          "image_id": 562641783,
-          "weight": 0.2,
-          "weight_unit": "kg"
-        },
-        {
-          "id": 49148385,
-          "product_id": 2,
-          "title": "Red",
-          "price": "199.00",
-          "sku": "IPOD2008RED",
-          "position": 2,
-          "grams": 200,
-          "inventory_policy": "continue",
-          "compare_at_price": null,
-          "fulfillment_service": "manual",
-          "inventory_management": "shopify",
-          "option1": "Red",
-          "option2": null,
-          "option3": null,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "requires_shipping": true,
-          "taxable": true,
-          "barcode": "1234_red",
-          "inventory_quantity": 20,
-          "old_inventory_quantity": 20,
-          "image_id": null,
-          "weight": 0.2,
-          "weight_unit": "kg"
-        },
-        {
-          "id": 39072856,
-          "product_id": 3,
-          "title": "Green",
-          "price": "199.00",
-          "sku": "IPOD2008GREEN",
-          "position": 3,
-          "grams": 200,
-          "inventory_policy": "continue",
-          "compare_at_price": null,
-          "fulfillment_service": "manual",
-          "inventory_management": "shopify",
-          "option1": "Green",
-          "option2": null,
-          "option3": null,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "requires_shipping": true,
-          "taxable": true,
-          "barcode": "1234_green",
-          "inventory_quantity": 30,
-          "old_inventory_quantity": 30,
-          "image_id": null,
-          "weight": 0.2,
-          "weight_unit": "kg"
-        },
-        {
-          "id": 457924702,
-          "product_id": 4,
-          "title": "Black",
-          "price": "199.00",
-          "sku": "IPOD2008BLACK",
-          "position": 4,
-          "grams": 200,
-          "inventory_policy": "continue",
-          "compare_at_price": null,
-          "fulfillment_service": "manual",
-          "inventory_management": "shopify",
-          "option1": "Black",
-          "option2": null,
-          "option3": null,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "requires_shipping": true,
-          "taxable": true,
-          "barcode": "1234_black",
-          "inventory_quantity": 40,
-          "old_inventory_quantity": 40,
-          "image_id": null,
-          "weight": 0.2,
-          "weight_unit": "kg"
-        }
-      ],
-      "options": [
-        {
-          "id": 594680422,
-          "product_id": 632910392,
-          "name": "Color",
-          "position": 1,
-          "values": [
-            "Pink",
-            "Red",
-            "Green",
-            "Black"
-          ]
-        }
-      ],
-      "images": [
-        {
-          "id": 850703190,
-          "product_id": 632910392,
-          "position": 1,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "src": "https:\/\/cdn.shopify.com\/s\/files\/1\/0006\/9093\/3842\/products\/ipod-nano.png?v=1458248091",
-          "variant_ids": [
-          ]
-        },
-        {
-          "id": 562641783,
-          "product_id": 632910392,
-          "position": 2,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "src": "https:\/\/cdn.shopify.com\/s\/files\/1\/0006\/9093\/3842\/products\/ipod-nano-2.png?v=1458248091",
-          "variant_ids": [
-            808950810
-          ]
-        }
-      ],
-      "image": {
-        "id": 850703190,
-        "product_id": 632910392,
-        "position": 1,
-        "created_at": "2016-03-17T16:54:51-04:00",
-        "updated_at": "2016-03-17T16:54:51-04:00",
-        "src": "images\/IPodNano8GB.jpg",
-        "variant_ids": [
-        ]
-      }
-    },
-    {
-      "id": 921728736,
-      "title": "IPod Touch 8GB",
-      "body_html": "The iPod Touch has the iPhone's multi-touch interface, with a physical home button off the touch screen. The home screen has a list of buttons for the available applications",
-      "vendor": "Apple",
-      "product_type": "Cult Products",
-      "created_at": "2016-03-17T16:54:51-04:00",
-      "handle": "ipod-touch",
-      "updated_at": "2016-03-17T16:54:51-04:00",
-      "published_at": "2008-09-25T20:00:00-04:00",
-      "template_suffix": null,
-      "published_scope": "global",
-      "tags": "",
-      "variants": [
-        {
-          "id": 447654529,
-          "product_id": 5,
-          "title": "Black",
-          "price": "199.00",
-          "sku": "IPOD2009BLACK",
-          "position": 1,
-          "grams": 200,
-          "inventory_policy": "continue",
-          "compare_at_price": null,
-          "fulfillment_service": "manual",
-          "inventory_management": "shopify",
-          "option1": "Black",
-          "option2": null,
-          "option3": null,
-          "created_at": "2016-03-17T16:54:51-04:00",
-          "updated_at": "2016-03-17T16:54:51-04:00",
-          "requires_shipping": true,
-          "taxable": true,
-          "barcode": "1234_black",
-          "inventory_quantity": 13,
-          "old_inventory_quantity": 13,
-          "image_id": null,
-          "weight": 0.2,
-          "weight_unit": "kg"
-        }
-      ],
-      "options": [
-        {
-          "id": 891236591,
-          "product_id": 921728736,
-          "name": "Title",
-          "position": 1,
-          "values": [
-            "Black"
-          ]
-        }
-      ],
-      "images": [
-      ],
-      "image": {
-        "id": 323232323,
-        "product_id": 2323232323,
-        "position": 1,
-        "created_at": "2016-03-17T16:54:51-04:00",
-        "updated_at": "2016-03-17T16:54:51-04:00",
-        "src": "images\/IPodTouch8GB.jpg",
-        "variant_ids": [
-        ]
-      }
-    }
-  ]
+  "products": [{
+    "id": "1",
+    "title": "Coolpad Note 3(Black, 16GB)",
+    "image": "images\/Coolpad-Note3-Black-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Black",
+    "info": "The Note 3 is that the most cost-effective below Rs.10,000 phone to come back with a fingerprint sensor that works and works quite well at that."
+  }, {
+    "id": "2",
+    "title": "Samsung Galaxy On5 (Black, 8 GB)",
+    "image": "images\/Galaxy-On5-b-1.jpg",
+    "price": "₹ 8,999:00",
+    "color": "Black",
+    "info": "Samsung Galaxy On5 with sleek design will come with unique built in features like the UDS (Ultra Data Saving) Mode and 4G Download Booster which promise to provide a differentiated experience to the millennial."
+  }, {
+    "id": "3",
+    "title": "Samsung Galaxy On5 (Gold, 8 GB)",
+    "image": "images\/Galaxy-On-g-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Black",
+    "info": "Samsung Galaxy On5 with sleek design will come with unique built in features like the UDS (Ultra Data Saving) Mode and 4G Download Booster which promise to provide a differentiated experience to the millennial."
+  }, {
+    "id": "4",
+    "title": "Lenovo Vibe K4 Note (White,16GB)",
+    "image": "images\/Lenovo-Vibe-K4-Note-White-1-e1458759920476.jpg",
+    "price": "₹ 11,999.00",
+    "color": "White",
+    "info": "Lenovo K4 Note is the First smartphone with TheaterMax technology and Dolby Atmos surround sound, helps you watch your videos on virtual giant screen cinematic experience using ANT VR head-mount."
+  }, {
+    "id": "5",
+    "title": "Lenovo Vibe K5 Plus (Dark Grey)",
+    "image": "images\/Lenovo-vibe-K5-DarkGrey-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Dark Grey",
+    "info": "Lenovo Vibe K5 Plus will rock your world, with stylish 5″ screen, powerful octa-core processing, enhanced Dolby audio, and two hi-res cameras"
+  }, {
+    "id": "6",
+    "title": "OnePlus 2 (Sandstone Black, 16GB)",
+    "image": "images\/OnePlus-2-Sandstone-1.jpg",
+    "price": "₹ 20,999.00",
+    "color": "Sandstone Black",
+    "info": "A lightweight, resilient aluminum and magnesium alloy frame and stainless steel accents unify the OnePlus 2’s sleek metal design. Durability and sophistication with an unrivaled premium feel."
+  }, {
+    "id": "7",
+    "title": "OnePlus 2 (Sandstone Black, 64GB)",
+    "image": "images\/OnePlus-2-Sandstone-1.jpg",
+    "price": "₹ 22,999.00",
+    "color": "Sandstone Black",
+    "info": "A lightweight, resilient aluminum and magnesium alloy frame and stainless steel accents unify the OnePlus 2’s sleek metal design. Durability and sophistication with an unrivaled premium feel."
+  }, {
+    "id": "8",
+    "title": "OnePlus X Champagne",
+    "image": "images\/Oneplus-x-champagne-1.jpg",
+    "price": "₹ 16,999.00",
+    "color": "White",
+    "info": "The OnePlus X Champagne is about exploring contrasts and harmony. It’s about expressing individuality in modern urban life, the conflict between traditional craft and manufacturing, and balance between design and technology. Reflections of where you are, and where you’re going to be."
+  }, {
+    "id": "9",
+    "title": "Mi Pad Tablet (WiFi), White – 16GB",
+    "image": "images\/Xiaomi-Mi-Pad-01.jpg",
+    "price": "₹ 10,999.00",
+    "color": "white",
+    "info": "Mi Pad with a powerful NVIDIA Tegra K1 CPU and 192 supercomputer-class GPU cores, the Mi Pad is the perfect blend of performance and elegance."
+  }, {
+    "id": "10",
+    "title": "Sony Xperia Z3+ (Copper, 32GB)",
+    "image": "images\/Sony-Xperia-Z3-Plus-Copper-1.jpg",
+    "price": "₹ 23,999.00",
+    "color": "Black",
+    "info": "The Xperia Z3+, or Xperia Z4 as it will be known in Japan, is yet another incremental upgrade to the company’s water- and dust-proof Xperia Z series."
+  }, {
+    "id": "11",
+    "title": "Xiaomi Redmi Note 3 (Dark Grey, 16GB)",
+    "image": "images\/Xiaomi-Redmi-Note-3-Dark-Grey-1.jpg",
+    "price": "₹ 9,999.00",
+    "color": "Dark Grey",
+    "info": "Xiaomi Redmi Note 3, comes with a stunning 5.5 inch HD display, Snapdragon 650 CPU, 16MP Sony camera and 4000mAh all-day battery."
+  }, {
+    "id": "12",
+    "title": "Xiaomi Redmi Note 3 (Gold, 16GB)",
+    "image": "images\/Xiaomi-Redmi-Note-3-Gold-1.jpg",
+    "price": "₹ 9,999.00",
+    "color": "Gold",
+    "info": "Xiaomi Redmi Note 3, comes with a stunning 5.5 inch HD display, Snapdragon 650 CPU, 16MP Sony camera and 4000mAh all-day battery."
+  }, {
+    "id": "13",
+    "title": "Moto G 3rd Gen (Black, 16GB)",
+    "image": "images\/motorola-moto-g-3rd-black-1.jpg",
+    "price": "₹ 10,999.00",
+    "color": "Black",
+    "info": "Moto G has successfully redefined what a budget Android handset should look, feel, and perform like and how much it should cost. The device’s IPX7 water-resistant body and customizable colors promise to put the smartphone head and shoulders above its competitors."
+  }, {
+    "id": "14",
+    "title": "Moto G 3rd Gen (white, 16GB)",
+    "image": "images\/motorola-moto-g-3rd-white-1.jpg",
+    "price": "₹ 10,999.00",
+    "color": "white",
+    "info": "Moto G has successfully redefined what a budget Android handset should look, feel, and perform like and how much it should cost. The device’s IPX7 water-resistant body and customizable colors promise to put the smartphone head and shoulders above its competitors."
+  }]
 }

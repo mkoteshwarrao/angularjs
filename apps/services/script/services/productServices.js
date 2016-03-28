@@ -1,15 +1,18 @@
 app.service('productsService', ['$http', '$q', function($http, $q){
-     
+      var products = {};
+      
       var deferObject,
       myMethods = {
  
-        getProducts: function() {
+        getProducts: function() 
+        {
           var promise       =  $http.get('data/products.json'),
                 deferObject =  deferObject || $q.defer();
  
                 promise.then(
                   
                   function(res){
+                    products = res;
                     deferObject.resolve(res);
                   },
                    
@@ -20,6 +23,7 @@ app.service('productsService', ['$http', '$q', function($http, $q){
  
            return deferObject.promise;
           }
+
        };
     
        return myMethods;
