@@ -5,30 +5,18 @@ app.controller('productDetailsController',
         
         $scope.productId = $routeParams.productId;
 
-    	$scope.getProduct = productsService.getProducts();
+    	$scope.getProduct = productsService.getProduct($scope.productId);
 	
 	    $scope.getProduct.then(
 		         
-		        function(items) {
-		         
-		          angular.forEach(items.data.products, function(item){  
-
- 		                   if(item.id == $scope.productId){
-
- 		                   	 $scope.item = item;
- 		                   	
- 		                   }
- 		            
-		           });
-		        },
+		        function(item) {
+ 		            $scope.item = item;
+ 		        },
 		        
 		        function(reason) {
-		          $scope.somethingWrong = reason;
-		          $scope.error = true;
+		          
 		        }
 		      );
-    	
-        //$scope.item  = productsService.getProduct($scope.productId);
 		
 	}]
 

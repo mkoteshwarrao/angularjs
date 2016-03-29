@@ -22,6 +22,33 @@ app.service('productsService', ['$http', '$q', function($http, $q){
                   });
  
            return deferObject.promise;
+          },
+          getProduct: function(value) 
+          {
+              var promise       =  $http.get('data/products.json'),
+                    deferObject =  deferObject || $q.defer();
+    
+                    promise.then(
+
+                      function(res){
+
+                        angular.forEach(res.data.products, function(item){   
+                          
+                          if(item.id == value){
+                              
+                              deferObject.resolve(item);
+                                  
+                             }
+                        });
+                        
+                      },
+                      
+                      function(failure){
+                      
+                        deferObject.reject(failure);
+                      });
+    
+              return deferObject.promise;
           }
 
        };

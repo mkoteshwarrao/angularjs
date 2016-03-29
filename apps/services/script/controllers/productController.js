@@ -20,28 +20,34 @@ app.controller('productController', [ '$scope','$modal','$http','productsService
         }
     );
 
+    
+
      $scope.showDetails = function(value){
 
-   			    angular.forEach($scope.products, function(item){   
- 		                   
-                       if(item.id == value){
- 		                   	  
-                          $scope.item = item;
 
+                $scope.getProduct = productsService.getProduct(value);
+                    $scope.getProduct.then(
+                        
+                        function(item) {
+                          debugger;
+                          $scope.item = item;
                           $scope.myModal = $modal(
                               {
-                                scope: $scope,
-                                templateUrl: 'pages/pdetails.html',
-                                show: true, 
-                                backdrop: 'static'
+                                    scope: $scope,
+                                    templateUrl: 'pages/pdetails.html',
+                                    show: true, 
+                                    backdrop: 'static'
                               }
                           );
 
                           $scope.myModal.$promise.then($scope.myModal.show);
-                       
- 		                   }
- 		            
-		        });
+
+                        },
+                        
+                        function(reason) {
+                          
+                        }
+                );
      };
 
       $scope.hideModal = function(){
