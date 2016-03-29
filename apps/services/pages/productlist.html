@@ -1,29 +1,24 @@
-<div>
-
 <div class="container">
-	<table class="table">
-	    <thead>
-	      <tr>
-	        <th>Product</th>
-	        <th>Image</th>
-	        <th>Price</th>
-	        <th>Variants</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr ng-repeat="item in products" ng-click="showDetails(item.id)">
-	        <td>{{ item.title}}</td>
-	        <td>
-	        	<img ng-src="{{item.image}}" width="100 px" height="100 px" />
-	        </td>
-	        <td>{{ item.price }}</td>
-	        
-	        <td>{{ item.color }}</td>
+	        <table class="table">
+	            <thead>
+	            <tr>
+	                <th>Product</th>
+	                <th>Image</th>
+	                <th>Price</th>
+	                <th>Variants</th>
+	            </tr>
+	            </thead>
+	            <tbody>
+	            <tr ng-repeat="item in products" ng-click="showDetails(item.id)">
+	                <td>{{ item.title}}</td>
+	                <td>
+	        	        <img ng-src="{{item.image}}" width="100 px" height="100 px" />
+	                </td>
+	                <td>{{ item.price }}</td>
+	                
+	                <td>{{ item.color }}</td>
 
-	      </tr>
-	    </tbody>
-	  </table>
-</div>
-
-
+	            </tr>
+	            </tbody>
+	        </table>
 </div>
