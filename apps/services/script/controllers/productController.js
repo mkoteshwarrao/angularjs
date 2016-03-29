@@ -1,7 +1,7 @@
 app.controller('productController', [ '$scope','$modal','$http','productsService',
 	
 	function productController( $scope,$modal,$http,productsService) {
-	  $scope.showModal = false;
+	  
     $scope.products ={};
     $scope.myModal = $scope.myModal | {};
     
@@ -11,12 +11,11 @@ app.controller('productController', [ '$scope','$modal','$http','productsService
          
         function(items) {
           $scope.products = items.data.products;
-          $scope.success = true;
+           
         },
         
         function(reason) {
-          $scope.somethingWrong = reason;
-          $scope.error = true;
+           
         }
     );
 

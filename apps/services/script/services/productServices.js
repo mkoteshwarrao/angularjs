@@ -1,4 +1,5 @@
 app.service('productsService', ['$http', '$q', function($http, $q){
+     
       var products = {};
       
       var deferObject,
