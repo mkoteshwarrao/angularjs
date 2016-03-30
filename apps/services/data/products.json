@@ -1,0 +1,101 @@
+{
+  "products": [{
+    "id": "1",
+    "title": "Coolpad Note 3(Black, 16GB)",
+    "image": "images\/Coolpad-Note3-Black-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Black",
+    "info": "The Note 3 is that the most cost-effective below Rs.10,000 phone to come back with a fingerprint sensor that works and works quite well at that."
+  }, {
+    "id": "2",
+    "title": "Samsung Galaxy On5 (Black, 8 GB)",
+    "image": "images\/Galaxy-On5-b-1.jpg",
+    "price": "₹ 8,999:00",
+    "color": "Black",
+    "info": "Samsung Galaxy On5 with sleek design will come with unique built in features like the UDS (Ultra Data Saving) Mode and 4G Download Booster which promise to provide a differentiated experience to the millennial."
+  }, {
+    "id": "3",
+    "title": "Samsung Galaxy On5 (Gold, 8 GB)",
+    "image": "images\/Galaxy-On-g-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Black",
+    "info": "Samsung Galaxy On5 with sleek design will come with unique built in features like the UDS (Ultra Data Saving) Mode and 4G Download Booster which promise to provide a differentiated experience to the millennial."
+  }, {
+    "id": "4",
+    "title": "Lenovo Vibe K4 Note (White,16GB)",
+    "image": "images\/Lenovo-Vibe-K4-Note-White-1-e1458759920476.jpg",
+    "price": "₹ 11,999.00",
+    "color": "White",
+    "info": "Lenovo K4 Note is the First smartphone with TheaterMax technology and Dolby Atmos surround sound, helps you watch your videos on virtual giant screen cinematic experience using ANT VR head-mount."
+  }, {
+    "id": "5",
+    "title": "Lenovo Vibe K5 Plus (Dark Grey)",
+    "image": "images\/Lenovo-vibe-K5-DarkGrey-1.jpg",
+    "price": "₹ 8,999.00",
+    "color": "Dark Grey",
+    "info": "Lenovo Vibe K5 Plus will rock your world, with stylish 5″ screen, powerful octa-core processing, enhanced Dolby audio, and two hi-res cameras"
+  }, {
+    "id": "6",
+    "title": "OnePlus 2 (Sandstone Black, 16GB)",
+    "image": "images\/OnePlus-2-Sandstone-1.jpg",
+    "price": "₹ 20,999.00",
+    "color": "Sandstone Black",
+    "info": "A lightweight, resilient aluminum and magnesium alloy frame and stainless steel accents unify the OnePlus 2’s sleek metal design. Durability and sophistication with an unrivaled premium feel."
+  }, {
+    "id": "7",
+    "title": "OnePlus 2 (Sandstone Black, 64GB)",
+    "image": "images\/OnePlus-2-Sandstone-1.jpg",
+    "price": "₹ 22,999.00",
+    "color": "Sandstone Black",
+    "info": "A lightweight, resilient aluminum and magnesium alloy frame and stainless steel accents unify the OnePlus 2’s sleek metal design. Durability and sophistication with an unrivaled premium feel."
+  }, {
+    "id": "8",
+    "title": "OnePlus X Champagne",
+    "image": "images\/Oneplus-x-champagne-1.jpg",
+    "price": "₹ 16,999.00",
+    "color": "White",
+    "info": "The OnePlus X Champagne is about exploring contrasts and harmony. It’s about expressing individuality in modern urban life, the conflict between traditional craft and manufacturing, and balance between design and technology. Reflections of where you are, and where you’re going to be."
+  }, {
+    "id": "9",
+    "title": "Mi Pad Tablet (WiFi), White – 16GB",
+    "image": "images\/Xiaomi-Mi-Pad-01.jpg",
+    "price": "₹ 10,999.00",
+    "color": "white",
+    "info": "Mi Pad with a powerful NVIDIA Tegra K1 CPU and 192 supercomputer-class GPU cores, the Mi Pad is the perfect blend of performance and elegance."
+  }, {
+    "id": "10",
+    "title": "Sony Xperia Z3+ (Copper, 32GB)",
+    "image": "images\/Sony-Xperia-Z3-Plus-Copper-1.jpg",
+    "price": "₹ 23,999.00",
+    "color": "Black",
+    "info": "The Xperia Z3+, or Xperia Z4 as it will be known in Japan, is yet another incremental upgrade to the company’s water- and dust-proof Xperia Z series."
+  }, {
+    "id": "11",
+    "title": "Xiaomi Redmi Note 3 (Dark Grey, 16GB)",
+    "image": "images\/Xiaomi-Redmi-Note-3-Dark-Grey-1.jpg",
+    "price": "₹ 9,999.00",
+    "color": "Dark Grey",
+    "info": "Xiaomi Redmi Note 3, comes with a stunning 5.5 inch HD display, Snapdragon 650 CPU, 16MP Sony camera and 4000mAh all-day battery."
+  }, {
+    "id": "12",
+    "title": "Xiaomi Redmi Note 3 (Gold, 16GB)",
+    "image": "images\/Xiaomi-Redmi-Note-3-Gold-1.jpg",
+    "price": "₹ 9,999.00",
+    "color": "Gold",
+    "info": "Xiaomi Redmi Note 3, comes with a stunning 5.5 inch HD display, Snapdragon 650 CPU, 16MP Sony camera and 4000mAh all-day battery."
+  }, {
+    "id": "13",
+    "title": "Moto G 3rd Gen (Black, 16GB)",
+    "image": "images\/motorola-moto-g-3rd-black-1.jpg",
+    "price": "₹ 10,999.00",
+    "color": "Black",
+    "info": "Moto G has successfully redefined what a budget Android handset should look, feel, and perform like and how much it should cost. The device’s IPX7 water-resistant body and customizable colors promise to put the smartphone head and shoulders above its competitors."
+  }, {
+    "id": "14",
+    "title": "Moto G 3rd Gen (white, 16GB)",
+    "image": "images\/motorola-moto-g-3rd-white-1.jpg",
+    "price": "₹ 10,999.00",
+    "color": "white",
+    "info": "Moto G has successfully redefined what a budget Android handset should look, feel, and perform like and how much it should cost. The device’s IPX7 water-resistant body and customizable colors promise to put the smartphone head and shoulders above its competitors."
+  }]
+}
