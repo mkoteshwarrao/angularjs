@@ -1,7 +1,7 @@
 app.service('productsService', ['$http', '$q', function($http, $q){
      
       var products = {};
-      
+      var productId = null;
       var deferObject,
       myMethods = {
  
@@ -50,6 +50,12 @@ app.service('productsService', ['$http', '$q', function($http, $q){
                       });
     
               return deferObject.promise;
+          },
+          setProductId : function(value){
+              productId = value;
+          },
+          getProductId : function(){
+            return productId
           }
 
        };
